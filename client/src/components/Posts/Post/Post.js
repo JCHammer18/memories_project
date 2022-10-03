@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
-import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
+import ThumbUpAltIcon from '@material-us/icons/ThumbUpAlt';
 import DeleteIcon from '@material-ui/core/icons/Delete';
 import MoreHorizIcon from '@material-ui/core/icons/MoreHoriz';
 import moment from 'moment';
