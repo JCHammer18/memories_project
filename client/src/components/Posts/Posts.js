@@ -6,7 +6,7 @@ import useStyles from './styles'
 const Posts = () => {
     const classes = useStyles();
     return (
-        <>  <h1>POSTS</h1>
+        <>  <h1 className={classes.something}>POSTS</h1>
         <Post />
         <Post />
         </>
