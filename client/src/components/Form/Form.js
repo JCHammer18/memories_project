@@ -12,7 +12,7 @@ const Form = () => {
     }
 
     const clear = () => {
-        
+
     }
     
     return (
@@ -26,7 +26,7 @@ const Form = () => {
             <div className={classes.fileInput}>
                 <FileBase type="file" multiple={false} onDone={({base64}) => setPostData({ ...postData, selectedFile: base64})}>
                     <Button className={classes.buttonSubmit} variant="container" color="primary" size="large" type="submit">Submit</Button>
-                    <Button variant="contained" color="secondary" size="small" onClick={clear} fullWidth>Clear</Button>
+                    <Button variant="contained" color="secondary" size="small" onClick={clear} fullwidth>Clear</Button>
                 </FileBase>
             </div>
             </form>
